@@ -1,0 +1,36 @@
+{
+  "name": "flow-codemind",
+  "version": "1.0.0",
+  "description": "Flow-Codemind is a CLI tool to generate Mermaid flowcharts (.mmd) of your project's folder and file structure. Supports filtering, highlighting, sorting, and image export (PNG, JPG, SVG) using mermaid-cli.",
+  "main": "index.js",
+  "bin": {
+    "flow-codemind": "./index.js"
+  },
+  "scripts": {
+    "generate": "node index.js",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fitri-hy/flow-codemind-nodejs.git"
+  },
+  "keywords": [
+    "flowchart",
+    "mermaid",
+    "folder-structure",
+    "file-structure",
+    "project-visualization",
+    "cli",
+    "generator",
+    "codemind"
+  ],
+  "author": "I-As.Dev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fitri-hy/flow-codemind-nodejs/issues"
+  },
+  "homepage": "https://github.com/fitri-hy/flow-codemind-nodejs#readme",
+  "devDependencies": {
+    "@mermaid-js/mermaid-cli": "^11.4.2"
+  }
+}
